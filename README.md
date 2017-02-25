@@ -35,9 +35,6 @@ The goals / steps of this project are the following:
 [image17]: ./output_images/Per6.png "Combined Thresholding Warping"
 [image18]: ./output_images/Per7.png "Combined Thresholding Warping"
 
-
-[video1]: ./project_video.mp4 "Video"
-
 ###Camera Calibration
 
 ####1. Briefly state how you computed the camera matrix and distortion coefficients. Provide an example of a distortion corrected calibration image.

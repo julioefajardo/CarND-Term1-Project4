@@ -16,7 +16,7 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./output_images/Cal1.png "Undistorted Chessboard"
+[image1]: /output_images/Cal1.png "Undistorted Chessboard"
 [image2]: ./output_images/Cal2.png "Undistorted Images"
 [image3]: ./output_images/Cal3.png "Original - Undistorted"
 [image4]: ./output_images/Pro1(u).png "Undistorted"

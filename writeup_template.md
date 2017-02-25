@@ -1,4 +1,4 @@
-##Project 4
+##Self-Driving Cars Nanodegree - Project 4
 ---
 
 **Advanced Lane Finding Project**

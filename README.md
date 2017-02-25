@@ -31,9 +31,11 @@ The goals / steps of this project are the following:
 [image13]: ./output_images/Per1.PNG "Original Warping"
 [image14]: ./output_images/Per2.PNG "Combined Thresholding Warping"
 [image15]: ./output_images/Per3.PNG "Combined Thresholding Warping"
-[image16]: ./output_images/Per5.PNG "Combined Thresholding Warping"
-[image17]: ./output_images/Per6.PNG "Combined Thresholding Warping"
-[image18]: ./output_images/Per7.PNG "Combined Thresholding Warping"
+[image16]: ./output_images/Per5.PNG "Window Searching"
+[image17]: ./output_images/Per6.PNG "Lane Finding"
+[image18]: ./output_images/Per7.PNG "Final Image"
+
+[![video1](./output_images/Per7.PNG)](https://www.youtube.com/watch?v=SJmWCHr21C8)
 
 ###Camera Calibration
 
@@ -114,10 +116,10 @@ I implemented this step in lines # through # in my code in `yet_another_file.py`
 ###Pipeline (video)
 
 ####1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!).
+
+![alt text][video1]
+
 ---
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SJmWCHr21C8" frameborder="0" allowfullscreen></iframe>
-
 
 ###Discussion
 

@@ -37,6 +37,8 @@ The goals / steps of this project are the following:
 
 ###Camera Calibration
 
+The code for this step is contained in the IPython notebook named [Calibration](Calibration.ipynb).   
+
 The camera calibration procedure was performed by preparing and finding the coordinates of the chessboard corners from a set of 16 images, using the `cv2.findChessboardCorners` function from OpenCV, assuming that the chessboards are fixed on the (x, y) plane at z=0, such that the object points are the same for each calibration image.  Thus, `obj_points` is just a replicated array of coordinates, and `object_points` (object points - 3d points in real world space) will be appended with a copy of it every time I successfully detect all chessboard corners in a test image.  `image_points` (2d points in image plane) will be appended with the (x, y) pixel position of each of the corners in the image plane with each successful chessboard detection.  Finally, `object_points` and `image_points` are used to compute the camera calibration and distortion coefficients using the `cv2.calibrateCamera()` function.  Also, the coefficients were saved on the follow file `calibration_data/calibration_matrices.p`. 
 
 I applied this distortion correction to the test image using the `cv2.undistort()` function and obtained the following results:

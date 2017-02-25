@@ -53,8 +53,6 @@ Distorted and undistorted images of the road are shown on the left and right res
 It is been shown that original images had a small radial distortion, as shown on the followed image:
 ![alt text][image3]
 
-The code for this step is contained in the IPython notebook named [Calibration](Calibration.ipynb).   
-
 ###Pipeline (single images)
 
 ####1. Provide an example of a distortion-corrected image.

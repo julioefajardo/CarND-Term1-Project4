@@ -37,15 +37,21 @@ The goals / steps of this project are the following:
 
 ###Camera Calibration
 
-The code for this step is contained in the IPython notebook named [Calibration](Calibration.ipynb).   
+The camera calibration procedure was performed by preparing and finding the coordinates of the chessboard corners from a set of 16 images, using the `cv2.findChessboardCorners` function from OpenCV, assuming that the chessboards are fixed on the (x, y) plane at z=0, such that the object points are the same for each calibration image.  Thus, `obj_points` is just a replicated array of coordinates, and `object_points` (object points - 3d points in real world space) will be appended with a copy of it every time I successfully detect all chessboard corners in a test image.  `image_points` (2d points in image plane) will be appended with the (x, y) pixel position of each of the corners in the image plane with each successful chessboard detection.  Finally, `object_points` and `image_points` are used to compute the camera calibration and distortion coefficients using the `cv2.calibrateCamera()` function.  Also, the coefficients were saved on the follow file `calibration_data/calibration_matrices.p`. 
 
-I start by preparing "object points", which will be the (x, y, z) coordinates of the chessboard corners in the world. Here I am assuming the chessboard is fixed on the (x, y) plane at z=0, such that the object points are the same for each calibration image.  Thus, `objp` is just a replicated array of coordinates, and `objpoints` will be appended with a copy of it every time I successfully detect all chessboard corners in a test image.  `imgpoints` will be appended with the (x, y) pixel position of each of the corners in the image plane with each successful chessboard detection.  
+I applied this distortion correction to the test image using the `cv2.undistort()` function and obtained the following results:
 
-I then used the output `objpoints` and `imgpoints` to compute the camera calibration and distortion coefficients using the `cv2.calibrateCamera()` function.  I applied this distortion correction to the test image using the `cv2.undistort()` function and obtained this result: 
-
+####Chessboards Results
+Distorted and undistorted images of a chessboard are shown on the left and right respectively.
 ![alt text][image1]
+####Road Images Results
+Distorted and undistorted images of the road are shown on the left and right respectively.
 ![alt text][image2]
+####Distorsion Visualization
+It is been shown that original images had a small radial distortion, as shown on the followed image:
 ![alt text][image3]
+
+The code for this step is contained in the IPython notebook named [Calibration](Calibration.ipynb).   
 
 ###Pipeline (single images)
 

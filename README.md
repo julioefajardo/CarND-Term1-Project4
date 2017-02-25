@@ -35,8 +35,6 @@ The goals / steps of this project are the following:
 [image17]: ./output_images/Per6.PNG "Lane Finding"
 [image18]: ./output_images/Per7.PNG "Final Image"
 
-[![video1](./output_images/Per7.PNG)](https://www.youtube.com/watch?v=SJmWCHr21C8)
-
 ###Camera Calibration
 
 ####1. Briefly state how you computed the camera matrix and distortion coefficients. Provide an example of a distortion corrected calibration image.
@@ -117,7 +115,7 @@ I implemented this step in lines # through # in my code in `yet_another_file.py`
 
 ####1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!).
 
-![alt text][video1]
+[![Alt text for your video](https://img.youtube.com/vi/SJmWCHr21C8/0.jpg)](http://www.youtube.com/watch?v=SJmWCHr21C8)
 
 ---
 

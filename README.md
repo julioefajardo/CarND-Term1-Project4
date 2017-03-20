@@ -47,10 +47,10 @@ I applied this distortion correction to the test image using the `cv2.undistort(
 #### Chessboards Results
 Distorted and undistorted images of a chessboard are shown on the left and right respectively.
 ![alt text][image1]
-####Road Images Results
+#### Road Images Results
 Distorted and undistorted images of the road are shown on the left and right respectively.
 ![alt text][image2]
-####Distorsion Visualization
+#### Distorsion Visualization
 It is been shown that original images had a small radial distortion, as shown on the followed image:
 ![alt text][image3]
 
